@@ -1,0 +1,42 @@
+{
+  "manifestVersion": 2,
+  "id": "orca-claude-theme",
+  "publisher": "jiangwanyutao",
+  "name": "Claude Theme for Orca",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "Authentic Claude Code aesthetic for Orca: warm charcoal and ivory canvases, signature terracotta accents, chat bubbles, diffs, and matching terminal themes.",
+  "license": "MIT",
+  "repository": "https://github.com/jiangwanyutao/orca-claude-theme",
+  "engines": {
+    "orca": ">=1.4.245"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "claude-dark",
+        "title": "Claude Dark",
+        "path": "themes/claude-dark.json"
+      },
+      {
+        "id": "claude-light",
+        "title": "Claude Light",
+        "path": "themes/claude-light.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "claude-dark",
+        "title": "Claude Dark",
+        "path": "terminal/claude-dark.json"
+      },
+      {
+        "id": "claude-light",
+        "title": "Claude Light",
+        "path": "terminal/claude-light.json"
+      }
+    ]
+  },
+  "capabilities": [],
+  "icon": "images/icon.png"
+}
