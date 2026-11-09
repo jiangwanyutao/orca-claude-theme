@@ -14,11 +14,11 @@
 
 - 🏛️ **Claude Dark（暗色模式）**：深邃质感的暖炭黑底色（`#262624` / `#1A1A19`），搭配 Anthropic 标志性陶土红（`#D97757`），配合层次细腻的深色卡片与暖调对话气泡。
 - 📜 **Claude Light（亮色模式）**：典雅的象牙暖白纸张底色（`#FAF9F5` / `#F0EEE6`），搭配温润高对比炭黑文字（`#302D29`）与深陶红强调色（`#A3442B`），阅读舒适且不刺眼。
-- 💬 **针对 Orca AI 对话深度定制**：精心打磨了多智能体聊天界面的用户提问气泡、陶土色调行内代码药丸（Inline Code Pill）、纸张质感代码块及链接配色。
+- 💬 **Orca AI 对话全套视觉适配**：达成 Orca 全部 73 个设计令牌 100% 完整覆盖，深度定制了用户提问气泡、粗体加重、时间戳弱化、陶土色行内代码药丸、纸张质感代码块与聊天专属选区高亮。
 - 🔀 **Diff 与 Git 状态分层高亮**：兼顾行级背景（Background）与字符级强调（Emphasis）的温和绿/红对比色，长时间代码审查不易疲劳。
 - 💻 **配套终端配色方案**：内置精心调校的 16 色 ANSI 终端主题，在集成终端中运行 Claude Code CLI、Codex 等智能体时，深浅文字均清晰可读。
-- 🎨 **莫兰迪书卷语法高亮**：基于 TextMate 作用域细致调配的暖调莫兰迪高亮方案，保持专业、优雅与专注。
-- 📁 **配套 Claude Icons 图标包（23 款图标）**：内置极简折纸风格文件夹与语言图标，全面覆盖 `.ts/.tsx`、`.js/.jsx`、`.py`、`.rs`、`.go`、`.json`、`.yaml/.yml`、`.toml`、`.env`、`Dockerfile`、`.sh/.ps1`、`.sql/.prisma`、`.lock`、`.md`、`.html`、`.css`、图片与 Git 配置文件。在 **Settings → Appearance → File Icon Theme** 中选择 **Claude Icons** 即可启用。
+- 🎨 **莫兰迪书卷语法高亮**：基于 TextMate 作用域细致调配的暖调莫兰迪高亮方案，新增参数（Parameters）、装饰器（Decorators）与正则表达式（Regexp）专属着色。
+- 📁 **配套 Claude Icons 图标包（29 款图标）**：内置极简折纸风格文件夹与语言图标，全面覆盖 `.ts/.tsx`、`.js/.jsx`、`.vue`、`.svelte`、`.c/.cpp`、`.java`、`.py`、`.rs`、`.go`、`.json`、`.yaml/.yml`、`.toml`、`.graphql`、`.env`、`Dockerfile`、`.sh/.ps1`、`.sql/.prisma`、`.lock`、压缩包（`.zip/.tar/.gz`）、`.md`、`.html`、`.css`、图片与 Git 配置文件。在 **Settings → Appearance → File Icon Theme** 中选择 **Claude Icons** 即可启用。
 - ✨ **统一的全局悬停视觉层级**：精准对齐顶部导航项（入门清单/任务/工件）、工作区列表与文件树文件夹行的悬停光泽背景，主次分明。
 
 ---

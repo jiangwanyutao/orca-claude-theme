@@ -3,7 +3,7 @@
   "id": "claude-theme",
   "publisher": "jiangwanyutao",
   "name": "Claude Theme for Orca",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "execution": "data",
   "description": "Authentic Claude Code aesthetic for Orca: warm charcoal and ivory canvases, signature terracotta accents, chat bubbles, diffs, matching terminal themes, and minimal icons.",
   "license": "MIT",

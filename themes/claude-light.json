@@ -51,9 +51,13 @@
     "--host-badge-foreground": "#625D55",
 
     "--chat-user-message": "#EDE8DE",
+    "--chat-bold-foreground": "#1F1D1A",
+    "--chat-muted-foreground": "#787268",
     "--chat-inline-code": "#EAE5DA",
     "--chat-inline-code-foreground": "#91402B",
     "--chat-code-block": "#F5F3EB",
+    "--chat-selection": "#E5D8CC",
+    "--chat-selection-foreground": "#302D29",
     "--text-link": "#91402B",
 
     "--diff-added": "#3D5F2C",
@@ -244,6 +248,37 @@
       ],
       "settings": {
         "foreground": "#A33E34"
+      }
+    },
+    {
+      "name": "Parameters",
+      "scope": [
+        "variable.parameter",
+        "parameters"
+      ],
+      "settings": {
+        "foreground": "#805D22"
+      }
+    },
+    {
+      "name": "Decorators & Annotations",
+      "scope": [
+        "meta.decorator",
+        "punctuation.decorator",
+        "entity.name.function.decorator"
+      ],
+      "settings": {
+        "foreground": "#A3442B"
+      }
+    },
+    {
+      "name": "Regular Expressions",
+      "scope": [
+        "string.regexp",
+        "constant.regexp"
+      ],
+      "settings": {
+        "foreground": "#286D6B"
       }
     }
   ]

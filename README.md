@@ -14,11 +14,11 @@ An authentic **Claude Code** aesthetic theme for [Orca](https://github.com/stabl
 
 - 🏛️ **Claude Dark**: Deep warm charcoal canvas (`#262624` / `#1A1A19`), Anthropic terracotta accent (`#D97757`), layered surfaces, and warm message bubble styling.
 - 📜 **Claude Light**: Signature ivory/warm paper canvas (`#FAF9F5` / `#F0EEE6`), readable charcoal ink (`#302D29`), and deep clay terracotta accents (`#A3442B`).
-- 💬 **Orca AI Chat Tailored**: Specifically styled user message bubbles, terracotta-tinted inline code pills, and paper-textured code blocks designed for Orca's multi-agent workflow.
+- 💬 **Full Orca Chat AI Suite**: 100% token coverage (73/73 tokens) including user bubbles, bold emphasis, muted timestamps, terracotta code pills, paper code blocks, and custom chat text selection.
 - 🔀 **Diff & Git Highlighting**: Balanced line-level backgrounds and crisp character-level emphasis for fatigue-free code reviews.
 - 💻 **Claude Terminal Themes**: Matching 16-color ANSI terminal palettes tuned for CLI coding agents (Claude Code CLI, Codex, etc.).
-- 🎨 **Editorial Syntax Colors**: Refined Morandi TextMate token color scheme providing warm, distraction-free syntax highlighting.
-- 📁 **Bundled Claude Icons (23 Icons)**: Minimalist folded-paper folder and language icons covering `.ts/.tsx`, `.js/.jsx`, `.py`, `.rs`, `.go`, `.json`, `.yaml/.yml`, `.toml`, `.env`, `Dockerfile`, `.sh/.ps1`, `.sql/.prisma`, `.lock`, `.md`, `.html`, `.css`, `.svg/.png`, and Git files. Activate under **Settings → Appearance → File Icon Theme → Claude Icons**.
+- 🎨 **Editorial Syntax Colors**: Refined Morandi TextMate token color scheme providing warm, distraction-free syntax highlighting with dedicated scopes for parameters, decorators, and regular expressions.
+- 📁 **Bundled Claude Icons (29 Icons)**: Minimalist folded-paper folder and language icons covering `.ts/.tsx`, `.js/.jsx`, `.vue`, `.svelte`, `.c/.cpp`, `.java`, `.py`, `.rs`, `.go`, `.json`, `.yaml/.yml`, `.toml`, `.graphql`, `.env`, `Dockerfile`, `.sh/.ps1`, `.sql/.prisma`, `.lock`, `.zip/.tar`, `.md`, `.html`, `.css`, `.svg/.png`, and Git files. Activate under **Settings → Appearance → File Icon Theme → Claude Icons**.
 - ✨ **Unified Hover Hierarchy**: Cohesive, subtle hover highlights across top navigation items, worktrees, and file tree folders.
 
 ---
