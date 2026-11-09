@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "icons": {
+    "file": "icons/file.svg",
+    "folder": "icons/folder.svg",
+    "folder-open": "icons/folder-open.svg"
+  },
+  "fileNames": {
+    "package.json": "icons/package.svg",
+    "package-lock.json": "icons/package.svg",
+    "pnpm-lock.yaml": "icons/package.svg",
+    "yarn.lock": "icons/package.svg",
+    "orca-plugin.json": "icons/plugin.svg",
+    ".gitignore": "icons/git.svg",
+    ".gitattributes": "icons/git.svg",
+    ".gitmodules": "icons/git.svg",
+    "README.md": "icons/markdown.svg",
+    "README.zh-CN.md": "icons/markdown.svg",
+    "LICENSE": "icons/file.svg"
+  },
+  "fileExtensions": {
+    "ts": "icons/typescript.svg",
+    "tsx": "icons/typescript.svg",
+    "js": "icons/javascript.svg",
+    "jsx": "icons/javascript.svg",
+    "mjs": "icons/javascript.svg",
+    "cjs": "icons/javascript.svg",
+    "py": "icons/python.svg",
+    "rs": "icons/rust.svg",
+    "go": "icons/go.svg",
+    "json": "icons/json.svg",
+    "jsonc": "icons/json.svg",
+    "md": "icons/markdown.svg",
+    "mdx": "icons/markdown.svg",
+    "html": "icons/html.svg",
+    "htm": "icons/html.svg",
+    "css": "icons/css.svg",
+    "scss": "icons/css.svg",
+    "less": "icons/css.svg",
+    "svg": "icons/image.svg",
+    "png": "icons/image.svg",
+    "jpg": "icons/image.svg",
+    "jpeg": "icons/image.svg",
+    "webp": "icons/image.svg",
+    "gif": "icons/image.svg",
+    "ico": "icons/image.svg"
+  }
+}

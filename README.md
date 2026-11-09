@@ -18,6 +18,8 @@ An authentic **Claude Code** aesthetic theme for [Orca](https://github.com/stabl
 - 🔀 **Diff & Git Highlighting**: High-contrast, fatigue-free green and red diff indicators for code review.
 - 💻 **Claude Terminal Themes**: Matching 16-color ANSI terminal palettes for integrated agent runs (Claude Code CLI, Codex, etc.).
 - 🎨 **Editorial Syntax Colors**: Refined TextMate token color scheme providing balanced, distraction-free syntax highlighting.
+- 📁 **Bundled Claude Icons**: Minimalist folded-paper folder and language icons. Activate under **Settings → Appearance → File Icon Theme → Claude Icons**.
+- ✨ **Subtle Hover Indicators**: Gentle, translucent hover highlights on sidebar items and folders that guide the eye without competing with active selections.
 
 ---
 
