@@ -3,9 +3,9 @@
   "id": "claude-theme",
   "publisher": "jiangwanyutao",
   "name": "Claude Theme for Orca",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "execution": "data",
-  "description": "Authentic Claude Code aesthetic for Orca: warm charcoal and ivory canvases, signature terracotta accents, chat bubbles, diffs, matching terminal themes, and minimal icons.",
+  "description": "Authentic Claude Code aesthetic for Orca: warm charcoal and ivory canvases, midnight and pure white variants, signature terracotta accents, full chat suite, terminal themes, and semantic folder icons.",
   "license": "MIT",
   "repository": "https://github.com/jiangwanyutao/orca-claude-theme",
   "engines": {
@@ -19,9 +19,19 @@
         "path": "themes/claude-dark.json"
       },
       {
+        "id": "claude-dark-midnight",
+        "title": "Claude Dark (Midnight OLED)",
+        "path": "themes/claude-dark-midnight.json"
+      },
+      {
         "id": "claude-light",
         "title": "Claude Light",
         "path": "themes/claude-light.json"
+      },
+      {
+        "id": "claude-light-pure",
+        "title": "Claude Light (Pure White)",
+        "path": "themes/claude-light-pure.json"
       }
     ],
     "terminalThemes": [
@@ -31,9 +41,19 @@
         "path": "terminal/claude-dark.json"
       },
       {
+        "id": "claude-dark-oled",
+        "title": "Claude Dark (Midnight OLED)",
+        "path": "terminal/claude-dark-oled.json"
+      },
+      {
         "id": "claude-light",
         "title": "Claude Light",
         "path": "terminal/claude-light.json"
+      },
+      {
+        "id": "claude-light-charcoal",
+        "title": "Claude Light (Charcoal Cursor)",
+        "path": "terminal/claude-light-charcoal.json"
       }
     ],
     "iconThemes": [
