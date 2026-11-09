@@ -5,21 +5,21 @@
 An authentic **Claude Code** aesthetic theme for [Orca](https://github.com/stablyai/orca).
 
 <p align="center">
-  <img src="images/icon.png" width="128" height="128" alt="Claude Theme Icon" />
+  <img src="images/cover.png" width="100%" alt="Claude Theme for Orca Preview" />
 </p>
 
 ---
 
 ## Features
 
-- 🏛️ **Claude Dark**: Deep warm charcoal canvas (`#191919`), Anthropic terracotta accent (`#d97757`), layered surfaces, and warm message bubble styling.
-- 📜 **Claude Light**: Signature ivory/warm paper canvas (`#faf9f5`), readable charcoal ink (`#161616`), and elegant terracotta accents.
-- 💬 **Orca AI Chat Tailored**: Specifically styled user message bubbles, inline code pills, and highlighted code blocks designed for Orca's multi-agent workflow.
-- 🔀 **Diff & Git Highlighting**: High-contrast, fatigue-free green and red diff indicators for code review.
-- 💻 **Claude Terminal Themes**: Matching 16-color ANSI terminal palettes for integrated agent runs (Claude Code CLI, Codex, etc.).
-- 🎨 **Editorial Syntax Colors**: Refined TextMate token color scheme providing balanced, distraction-free syntax highlighting.
-- 📁 **Bundled Claude Icons**: Minimalist folded-paper folder and language icons. Activate under **Settings → Appearance → File Icon Theme → Claude Icons**.
-- ✨ **Subtle Hover Indicators**: Gentle, translucent hover highlights on sidebar items and folders that guide the eye without competing with active selections.
+- 🏛️ **Claude Dark**: Deep warm charcoal canvas (`#262624` / `#1A1A19`), Anthropic terracotta accent (`#D97757`), layered surfaces, and warm message bubble styling.
+- 📜 **Claude Light**: Signature ivory/warm paper canvas (`#FAF9F5` / `#F0EEE6`), readable charcoal ink (`#302D29`), and deep clay terracotta accents (`#A3442B`).
+- 💬 **Orca AI Chat Tailored**: Specifically styled user message bubbles, terracotta-tinted inline code pills, and paper-textured code blocks designed for Orca's multi-agent workflow.
+- 🔀 **Diff & Git Highlighting**: Balanced line-level backgrounds and crisp character-level emphasis for fatigue-free code reviews.
+- 💻 **Claude Terminal Themes**: Matching 16-color ANSI terminal palettes tuned for CLI coding agents (Claude Code CLI, Codex, etc.).
+- 🎨 **Editorial Syntax Colors**: Refined Morandi TextMate token color scheme providing warm, distraction-free syntax highlighting.
+- 📁 **Bundled Claude Icons (23 Icons)**: Minimalist folded-paper folder and language icons covering `.ts/.tsx`, `.js/.jsx`, `.py`, `.rs`, `.go`, `.json`, `.yaml/.yml`, `.toml`, `.env`, `Dockerfile`, `.sh/.ps1`, `.sql/.prisma`, `.lock`, `.md`, `.html`, `.css`, `.svg/.png`, and Git files. Activate under **Settings → Appearance → File Icon Theme → Claude Icons**.
+- ✨ **Unified Hover Hierarchy**: Cohesive, subtle hover highlights across top navigation items, worktrees, and file tree folders.
 
 ---
 
@@ -27,15 +27,17 @@ An authentic **Claude Code** aesthetic theme for [Orca](https://github.com/stabl
 
 | Token | Claude Dark | Claude Light | Description |
 | :--- | :--- | :--- | :--- |
-| **Accent (Primary)** | `#d97757` | `#d97757` | Signature Terracotta Clay |
-| **Canvas (Background)**| `#191919` | `#faf9f5` | Warm Charcoal / Ivory Canvas |
-| **Surface (Card)** | `#232323` | `#ffffff` | Elevated Surfaces & Cards |
-| **Foreground** | `#fdfdfd` | `#161616` | Primary Text Ink |
-| **Muted Ink** | `#9c9395` | `#70686a` | Secondary & Subtitle Text |
-| **Sidebar** | `#1f1f1f` | `#f3f1ea` | Navigation & Worktree Tree |
-| **Chat Bubble** | `#282524` | `#f4f2f3` | User Message Bubble Fill |
-| **Diff Added** | `#569e6b` | `#3d7550` | Git Insertion Indicator |
-| **Diff Removed** | `#d96666` | `#c94f4f` | Git Deletion Indicator |
+| **Accent (Primary)** | `#D97757` | `#A3442B` | Signature Terracotta / Deep Clay |
+| **Canvas (Background)**| `#262624` | `#FAF9F5` | Warm Charcoal / Ivory Canvas |
+| **Editor Surface** | `#1A1A19` | `#FFFFFF` | Code Editor & Terminal Surface |
+| **Foreground** | `#ECE9E0` | `#302D29` | Primary Text Ink |
+| **Muted Ink** | `#B9B3A7` | `#625D55` | Secondary & Subtitle Text |
+| **Sidebar** | `#20201E` | `#F0EEE6` | Navigation & Worktree Tree |
+| **Hover Accent** | `#2E2E2B` | `#E3E0D8` | Unified 8% Equivalent Hover Fill |
+| **Chat Bubble** | `#33322E` | `#EDE8DE` | User Message Bubble Fill |
+| **Inline Code Text** | `#EDA184` | `#91402B` | Backtick Code Pill Foreground |
+| **Diff Added** | `#A4BF88` | `#3D5F2C` | Git Insertion Indicator |
+| **Diff Removed** | `#E6A08B` | `#9E3B32` | Git Deletion Indicator |
 
 ---
 
@@ -49,7 +51,7 @@ Once indexed, search for **Claude Theme** under **Settings → Plugins** and cli
 2. Open **Orca Desktop**.
 3. Navigate to **Settings** (`Ctrl + ,` on Windows/Linux or `Cmd + ,` on macOS) → **Plugins**.
 4. Click **"Install from local path"** and select this directory.
-5. In **Settings → Appearance**, choose **Claude Dark** or **Claude Light**.
+5. In **Settings → Appearance**, choose **Claude Dark** or **Claude Light**, and set **File Icon Theme** to **Claude Icons**.
 
 ### Via Orca CLI
 ```bash

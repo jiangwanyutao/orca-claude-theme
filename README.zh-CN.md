@@ -5,21 +5,21 @@
 专为 [Orca](https://github.com/stablyai/orca) 打造的经典 **Claude Code** 风格主题插件。
 
 <p align="center">
-  <img src="images/icon.png" width="128" height="128" alt="Claude Theme Icon" />
+  <img src="images/cover.png" width="100%" alt="Claude Theme for Orca 预览图" />
 </p>
 
 ---
 
 ## 主题特色
 
-- 🏛️ **Claude Dark（暗色模式）**：深邃质感的暖炭黑底色（`#191919`），搭配 Anthropic 标志性陶土红（`#d97757`），配合层次细腻的深色卡片与暖调对话气泡。
-- 📜 **Claude Light（亮色模式）**：典雅的象牙暖白纸张底色（`#faf9f5`），搭配温润高对比炭黑文字（`#161616`），阅读舒适且不刺眼。
-- 💬 **针对 Orca AI 对话定制**：精心适配了多智能体聊天界面的用户提问气泡、行内代码药丸、代码块及链接配色。
-- 🔀 **Diff 与 Git 状态高亮**：温和且高辨识度的绿/红代码差异对比色，长时间进行代码审查不易疲劳。
-- 💻 **配套终端配色方案**：内置配套的 16 色 ANSI 终端主题，无论在集成终端中运行 Claude Code CLI、Codex 还是其他 Agent，色彩均与界面浑然一体。
-- 🎨 **书卷气息语法高亮**：基于 TextMate 作用域细致调配的代码高亮方案，保持专业、优雅与专注。
-- 📁 **配套 Claude Icons 图标包**：内置极简折纸风格文件夹与语言文件图标，在 **Settings → Appearance → File Icon Theme** 中选择 **Claude Icons** 即可体验。
-- ✨ **层次分明的悬停指引**：鼠标悬停在侧边栏、工作区及文件夹时，呈现更轻盈通透的指引光泽背景，主次分明不打扰。
+- 🏛️ **Claude Dark（暗色模式）**：深邃质感的暖炭黑底色（`#262624` / `#1A1A19`），搭配 Anthropic 标志性陶土红（`#D97757`），配合层次细腻的深色卡片与暖调对话气泡。
+- 📜 **Claude Light（亮色模式）**：典雅的象牙暖白纸张底色（`#FAF9F5` / `#F0EEE6`），搭配温润高对比炭黑文字（`#302D29`）与深陶红强调色（`#A3442B`），阅读舒适且不刺眼。
+- 💬 **针对 Orca AI 对话深度定制**：精心打磨了多智能体聊天界面的用户提问气泡、陶土色调行内代码药丸（Inline Code Pill）、纸张质感代码块及链接配色。
+- 🔀 **Diff 与 Git 状态分层高亮**：兼顾行级背景（Background）与字符级强调（Emphasis）的温和绿/红对比色，长时间代码审查不易疲劳。
+- 💻 **配套终端配色方案**：内置精心调校的 16 色 ANSI 终端主题，在集成终端中运行 Claude Code CLI、Codex 等智能体时，深浅文字均清晰可读。
+- 🎨 **莫兰迪书卷语法高亮**：基于 TextMate 作用域细致调配的暖调莫兰迪高亮方案，保持专业、优雅与专注。
+- 📁 **配套 Claude Icons 图标包（23 款图标）**：内置极简折纸风格文件夹与语言图标，全面覆盖 `.ts/.tsx`、`.js/.jsx`、`.py`、`.rs`、`.go`、`.json`、`.yaml/.yml`、`.toml`、`.env`、`Dockerfile`、`.sh/.ps1`、`.sql/.prisma`、`.lock`、`.md`、`.html`、`.css`、图片与 Git 配置文件。在 **Settings → Appearance → File Icon Theme** 中选择 **Claude Icons** 即可启用。
+- ✨ **统一的全局悬停视觉层级**：精准对齐顶部导航项（入门清单/任务/工件）、工作区列表与文件树文件夹行的悬停光泽背景，主次分明。
 
 ---
 
@@ -27,15 +27,17 @@
 
 | 色彩令牌 | Claude Dark（暗色） | Claude Light（亮色） | 说明 |
 | :--- | :--- | :--- | :--- |
-| **强调色 (Primary)** | `#d97757` | `#d97757` | 标志性陶土红 (Terracotta Clay) |
-| **画布底色 (Background)** | `#191919` | `#faf9f5` | 暖炭黑 / 象牙暖白画布 |
-| **卡片与表面 (Card)** | `#232323` | `#ffffff` | 浮层与容器表面色 |
-| **主文本 (Foreground)** | `#fdfdfd` | `#161616` | 主要文字墨色 |
-| **次要文字 (Muted)** | `#9c9395` | `#70686a` | 次要描述与注解文本 |
-| **侧边栏 (Sidebar)** | `#1f1f1f` | `#f3f1ea` | 多工作区与文件树区域 |
-| **对话气泡 (Chat Bubble)**| `#282524` | `#f4f2f3` | 用户提问消息气泡背景 |
-| **Diff 增添 (Added)** | `#569e6b` | `#3d7550` | Git 差异插入标识色 |
-| **Diff 删除 (Removed)** | `#d96666` | `#c94f4f` | Git 差异删除标识色 |
+| **强调色 (Primary)** | `#D97757` | `#A3442B` | 标志性陶土红 / 深陶红 |
+| **画布底色 (Background)** | `#262624` | `#FAF9F5` | 暖炭黑 / 象牙暖白画布 |
+| **编辑器表面 (Surface)** | `#1A1A19` | `#FFFFFF` | 代码编辑器与终端背景表面 |
+| **主文本 (Foreground)** | `#ECE9E0` | `#302D29` | 主要文字墨色 |
+| **次要文字 (Muted)** | `#B9B3A7` | `#625D55` | 次要描述与注解文本 |
+| **侧边栏 (Sidebar)** | `#20201E` | `#F0EEE6` | 多工作区与文件树区域 |
+| **统一悬停色 (Hover)** | `#2E2E2B` | `#E3E0D8` | 与 8% 前景透明度等效的悬停色 |
+| **对话气泡 (Chat Bubble)**| `#33322E` | `#EDE8DE` | 用户提问消息气泡背景 |
+| **行内代码 (Inline Code)**| `#EDA184` | `#91402B` | 聊天内行内代码药丸文字色 |
+| **Diff 增添 (Added)** | `#A4BF88` | `#3D5F2C` | Git 差异插入标识色 |
+| **Diff 删除 (Removed)** | `#E6A08B` | `#9E3B32` | Git 差异删除标识色 |
 
 ---
 
@@ -49,7 +51,7 @@
 2. 打开 **Orca** 桌面客户端。
 3. 进入 **Settings**（快捷键 `Ctrl + ,` 或 macOS 上的 `Cmd + ,`）→ **Plugins**。
 4. 点击 **"Install from local path"**（从本地路径安装），选择本仓库文件夹。
-5. 进入 **Settings → Appearance**（外观），在主题下拉菜单中选择 **Claude Dark** 或 **Claude Light**。
+5. 进入 **Settings → Appearance**（外观），在主题下拉菜单中选择 **Claude Dark** 或 **Claude Light**，并在文件图标主题中选择 **Claude Icons**。
 
 ### 通过 Orca CLI 加载
 ```bash
