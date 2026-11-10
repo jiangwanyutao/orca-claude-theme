@@ -4,36 +4,36 @@
   "tokens": {
     "--background": "#FFFFFF",
     "--editor-surface": "#FFFFFF",
-    "--foreground": "#1A1A19",
+    "--foreground": "#161615",
     "--card": "#FFFFFF",
-    "--card-foreground": "#1A1A19",
+    "--card-foreground": "#161615",
     "--popover": "#FFFFFF",
-    "--popover-foreground": "#1A1A19",
+    "--popover-foreground": "#161615",
     "--primary": "#A3442B",
     "--primary-foreground": "#FFFFFF",
     "--secondary": "#F0EFEA",
-    "--secondary-foreground": "#1A1A19",
+    "--secondary-foreground": "#161615",
     "--muted": "#F0EFEA",
-    "--muted-foreground": "#5C5851",
+    "--muted-foreground": "#524E48",
     "--accent": "#EBEAE5",
-    "--accent-foreground": "#1A1A19",
+    "--accent-foreground": "#161615",
     "--border": "#E2E0D8",
     "--input": "#E2E0D8",
     "--ring": "#A3442B",
 
     "--sidebar": "#F7F6F2",
-    "--sidebar-foreground": "#1A1A19",
+    "--sidebar-foreground": "#161615",
     "--sidebar-primary": "#A3442B",
     "--sidebar-primary-foreground": "#FFFFFF",
     "--sidebar-accent": "#EBEAE5",
-    "--sidebar-accent-foreground": "#1A1A19",
+    "--sidebar-accent-foreground": "#161615",
     "--sidebar-border": "#E2E0D8",
     "--sidebar-ring": "#A3442B",
 
     "--worktree-sidebar": "#F7F6F2",
-    "--worktree-sidebar-foreground": "#1A1A19",
+    "--worktree-sidebar-foreground": "#161615",
     "--worktree-sidebar-accent": "#EBEAE5",
-    "--worktree-sidebar-accent-foreground": "#1A1A19",
+    "--worktree-sidebar-accent-foreground": "#161615",
     "--worktree-sidebar-active": "#EDECE6",
     "--worktree-sidebar-border": "#E2E0D8",
     "--worktree-sidebar-active-border": "#A3442B",
@@ -41,23 +41,23 @@
 
     "--tab-bar": "#F7F6F2",
     "--tab-active": "#FFFFFF",
-    "--tab-active-foreground": "#1A1A19",
+    "--tab-active-foreground": "#161615",
     "--tab-active-indicator": "#A3442B",
     "--tab-inactive": "#F7F6F2",
-    "--tab-inactive-foreground": "#5C5851",
+    "--tab-inactive-foreground": "#524E48",
     "--split-divider": "#E2E0D8",
     "--split-divider-hover": "#A3442B",
     "--host-badge": "#E8E6DF",
-    "--host-badge-foreground": "#5C5851",
+    "--host-badge-foreground": "#524E48",
 
     "--chat-user-message": "#F2F0E8",
     "--chat-bold-foreground": "#000000",
-    "--chat-muted-foreground": "#6B665E",
+    "--chat-muted-foreground": "#5E5950",
     "--chat-inline-code": "#EAE7DF",
     "--chat-inline-code-foreground": "#91402B",
     "--chat-code-block": "#F8F7F2",
     "--chat-selection": "#E8D8CC",
-    "--chat-selection-foreground": "#1A1A19",
+    "--chat-selection-foreground": "#161615",
     "--text-link": "#91402B",
 
     "--diff-added": "#3D5F2C",
@@ -87,7 +87,7 @@
     {
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
-      "settings": { "foreground": "#5C5851", "fontStyle": "italic" }
+      "settings": { "foreground": "#524E48", "fontStyle": "italic" }
     },
     {
       "name": "Keywords & Storage",
@@ -107,7 +107,7 @@
     {
       "name": "Functions & Methods",
       "scope": ["entity.name.function", "support.function", "meta.function-call"],
-      "settings": { "foreground": "#315F87" }
+      "settings": { "foreground": "#2B557A" }
     },
     {
       "name": "Types & Classes",
@@ -117,7 +117,7 @@
     {
       "name": "Variables & Punctuation",
       "scope": ["variable", "support.variable", "variable.other.property", "punctuation", "meta.brace"],
-      "settings": { "foreground": "#1A1A19" }
+      "settings": { "foreground": "#161615" }
     },
     {
       "name": "Tags",
